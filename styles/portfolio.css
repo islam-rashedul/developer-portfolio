@@ -1,6 +1,8 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
+    
 }
+
 
 nav {
     display: flex;
@@ -94,4 +96,23 @@ nav a{
     color: #757575;
     text-align: center;
     font-size: 18px;
+    font-weight: 400;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+#what-i-do-desc{
+    padding: 30px 115px;
+
 }
